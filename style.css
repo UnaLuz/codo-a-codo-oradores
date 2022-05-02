@@ -1,0 +1,30 @@
+.header-image-bg {
+  background-image: url('img/ba1.jpg');
+  background-size: cover;
+  background-blend-mode: multiply;
+}
+
+footer {
+  background: rgb(12, 35, 50);
+  background: linear-gradient(
+    90deg,
+    rgba(12, 35, 50, 1) 15%,
+    rgba(24, 70, 110, 1) 85%
+  );
+}
+
+input[type='submit'] {
+  background-color: yellowgreen;
+}
+
+#formControlTextarea::placeholder {
+  font-size: larger;
+}
+
+.nav > .nav-link {
+  width: min-content;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: inherit;
+}
